@@ -10,9 +10,9 @@ group :test do
 end
 
 group :development, :test do
-  gem 'rubocop'
-  gem 'rubocop-performance'
-  gem 'rubocop-rspec'
+  gem 'rubocop', '>= 1.66.0'
+  gem 'rubocop-performance', '>= 1.19.0'
+  gem 'rubocop-rspec', '>= 2.23.0'
   gem 'simplecov'
   gem 'simplecov-console'
 end
